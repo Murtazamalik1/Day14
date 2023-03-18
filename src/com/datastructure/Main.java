@@ -7,8 +7,10 @@ public class Main {
 
         linkedList.push(70);
         linkedList.push(56);
+
         linkedList.insert(30);
 
+        linkedList.pop();
         linkedList.display();
 
 
