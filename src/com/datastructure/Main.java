@@ -10,9 +10,9 @@ public class Main {
 
         linkedList.insert(30);
 
-       // linkedList.pop();
-        linkedList.popLast();
+        System.out.println(linkedList.popLast());
         linkedList.display();
+
         System.out.println();
 
         if (linkedList.search(30) != null) {
@@ -20,9 +20,7 @@ public class Main {
         } else {
             System.out.println("Data not found");
         }
-    }
-
-
-
+        System.out.println(linkedList.insertAfter(30, 40));
+        System.out.println();
     }
 }
